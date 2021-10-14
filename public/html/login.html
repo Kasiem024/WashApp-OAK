@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../css/loginPasCreate.css">
+    <script src="../js/login.js"></script>
 
     <title>Login Sida</title>
 </head>
@@ -16,18 +17,18 @@
         </div>
     </div>
     <div class="container">
-        <form class="form" action="/" method="POST">
+        <form class="form">
             <div class="title">Välkommen till WashApp</div>
             <div class="formItem">
                 <label>E-mail</label>
-                <input type="text" class="input" placeholder="Exempel@exempel.com">
+                <input type="text" class="input" id="email" placeholder="Exempel@exempel.com">
             </div>
             <br>
             <div class="formItem">
                 <label>Lösenord</label>
-                <input type="password" class="input" placeholder="Skriv in ditt lösenord">
+                <input type="password" class="input" id="pas" placeholder="Skriv in ditt lösenord">
             </div>
-            <input type="submit" class="btn" value="Logga in">
+            <button type="button" class="btn" onclick="Login()">Logga in</button>
         </form>
         <p class="text"><a href="password.html">Glömt ditt lösenord?</a><br>
            <a href="create.html">Skapa konto</a><br>

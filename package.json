@@ -1,7 +1,7 @@
 {
     "name": "wash-app-oak",
     "version": "1.0.0",
-    "description": "Ann application to help with you clothes washing needs",
+    "description": "An application to help with your clothes washing needs",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
