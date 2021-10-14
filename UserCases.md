@@ -57,3 +57,34 @@
 - Som ett bostadsföretag
 - Vill jag snabbt kunna nå användarna av appen
 - Så att jag kan få ut viktig information vid behov
+
+
+## Personas
+
+1 - Britt Marie 67 ingen teknisk erfarenhet
+Måste vara simpelt, ingen information overload
+
+<br/>
+
+2 - Kalle 10 år i en familj av 4 minimal teknisk erfarenhet
+Skall ej krävas mer än det mest absolut nödvändiga tekniska erfarenheten för att använd appen.
+
+<br/>
+
+3 - Thomas 46 år bor med sambo
+Appen skall veta att de bor tillsammans så båda har tillgång till tvätt tiden. 
+
+<br/>
+
+4 - Anna 20 år nyinflyttad
+Måste vara lätt att förstå utan tidigare kunskap.
+
+<br/>
+
+5 - Martinez 36 kan ej svenska
+Måste finnas version på språk utöver svenska som t.ex engelska.
+
+<br/>
+
+6 - Klara 56 rullstolsburen
+Kan ej ta tvätta själv och behöver sätt att ha någon hämta tvätt, tvätta den och sen lämna tillbaka den.
