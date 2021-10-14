@@ -27,13 +27,13 @@ header .material-icons {
     vertical-align: middle;
 }
 
-.header-account {
+.headerAccount {
     float: left;
     margin-top: 25px;
     margin-left: 10px;
 }
 
-.header-home {
+.headerHome {
     float: right;
     margin-top: 25px;
     margin-right: 10px;
