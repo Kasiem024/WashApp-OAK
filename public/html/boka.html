@@ -18,7 +18,7 @@
     <title>WashApp - OAK</title>
 </head>
 
-<body>
+<body onload="getDate()">
     <header>
         <ul>
             <li class="header-account">
@@ -34,6 +34,31 @@
     </header>
 
     <main>
+        <div class="date center">
+            <h2 id="month"></h2>
+
+            <div id="week">
+                <ul>
+                    <li>
+                        <button onclick="arrowBack()" class="material-icons arrow-back">
+
+                            arrow_back_ios
+
+                        </button>
+                    </li>
+                    <li>
+                        <h3 id="weekText"></h3>
+                    </li>
+                    <li>
+                        <button onclick="arrowForward()" class="material-icons arrow-forward">
+                            arrow_forward_ios
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
         <table id="calendar">
             <tr>
                 <td></td>
@@ -96,6 +121,8 @@
                 <td><button disabled>Boka</button></td>
             </tr>
         </table>
+        <div class="center"><button>Bekräfta</button></div>
+
     </main>
 
     <footer>
