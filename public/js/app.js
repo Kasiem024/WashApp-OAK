@@ -19,6 +19,9 @@ function getDate() {
 function arrowBack() {
     week = week - 1;
     document.getElementById('weekText').innerHTML = ` Vecka ${week - 1}`;
+    if (week == 1) {
+        getDate();
+    }
 }
 
 function arrowForward() {
