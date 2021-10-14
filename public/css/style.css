@@ -8,17 +8,33 @@ header {
     width: 100%;
     background-color: rgb(0, 162, 255);
     font-size: 30px;
+    text-align: center;
 }
 
 header h2 {
     margin-top: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;
 }
 
-header a {
+header ul li {
+    display: inline-block;
+}
+
+header .material-icons {
     color: black;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.header-account {
+    float: left;
+    margin-top: 25px;
+}
+
+.header-home {
+    float: right;
+    margin-top: 25px;
 }
 
 main {
@@ -51,6 +67,10 @@ main nav a {
 
 
 /* boka */
+
+#calendar {
+    align-self: center;
+}
 
 td {
     text-align: center;
