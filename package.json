@@ -10,6 +10,9 @@
     "author": "Oscar Gustafsson Adam Pousette Kasiem Saeed",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1"
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "express": "^4.17.1",
+        "install": "^0.13.0",
+        "npm": "^8.0.0"
     }
 }
