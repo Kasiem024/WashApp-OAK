@@ -97,4 +97,12 @@ td {
 #week button {
     background-color: white;
     border: none;
+    font-size: 30px;
+}
+
+.btnConfirm {
+    margin-top: 20px;
+    font-size: 20px;
+    border: solid black 1px;
+    padding: 10px;
 }
