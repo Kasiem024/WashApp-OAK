@@ -52,4 +52,6 @@ main nav a {
 
 /* boka */
 
-#calendar {}
+td {
+    text-align: center;
+}
