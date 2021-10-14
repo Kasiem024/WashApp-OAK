@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" src="errorreport.css">
+    <link rel="stylesheet" href="../css/errorreport.css">
 
     <title>Felrapport</title>
 
@@ -15,8 +14,40 @@
 
 <body>
     
+    <div class="header">
 
-    
+        <h1>Washapp</h1>
+
+    </div>
+
+    <div class="container">
+
+        <form class="form">
+
+            <div class="title">Felrapport</div>
+
+            <div class="formItem">
+
+                <label>Ämne</label>
+                <input type="text" class="input" id="subject" placeholder="t.ex Bokning av kemtvätt">
+
+            </div>
+
+            <br>
+
+            <div class="formItem">
+
+                <label>Meddelande</label>
+                <input type="message" class="input" id="mes" placeholder="Beskriv problemet">
+
+            </div>
+
+            <button type="button" class="btn">Skicka Felrapport</button>
+
+        </form>
+        
+    </div>
+
 </body>
 
 </html>

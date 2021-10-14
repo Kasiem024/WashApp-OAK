@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#header {
+    background-color:#dddddd;
+    height: 80px;
+}
+
+#header h1 {
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    width: 300px;
+}
+
+.box {
+  box-sizing: border-box;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.h2 {
+  font-size: 30px;
+}
+
+#alternatives {
+    flex-direction: column;
+    display: flex;
+}
+
+
+
+
+
